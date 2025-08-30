@@ -7,7 +7,7 @@ on:
 
 jobs:
   my-firstJob:
-    runs-on: ubunti-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: print a Welcome Message 
