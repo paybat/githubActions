@@ -1,0 +1,15 @@
+name: my-firstWorckfloow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my-firstJob:
+    runs-on: ubunti-latest
+
+    steps:
+      - name: print a Welcome Message 
+      
+        run: echo "Welcome to 1337 git-hub Actions "
